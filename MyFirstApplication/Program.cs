@@ -17,13 +17,16 @@ inside that member.
 
 // Lesson Examples
 // HouseExample();
-Lesson1Example();
+// Lesson1Example();
 
-void HouseExample()
-{
-    House myHouse = new House();
-    myHouse.DoorOpenClose();
-}
+// Exercise Tests
+Exercise1Test();
+
+// void HouseExample()
+// {
+//     House myHouse = new House();
+//     myHouse.DoorOpenClose();
+// }
 
 // Lesson 1 Value Types
 void Lesson1Example()
@@ -33,4 +36,14 @@ void Lesson1Example()
     myLesson.IntegralExample();
     myLesson.ConvertFloatToInt();
     myLesson.LongFromInt();
+}
+
+// Exercise 1 Test
+void Exercise1Test()
+{
+    Exercise1 myExercise1 = new Exercise1();
+    myExercise1.OutputLiteralTypes();
+    myExercise1.ImplicitConvertDataType(250, 30_000, 2_000_000_000);
+    myExercise1.ExplicitConvertDataType(1.7E+8, 998_287.268F, 5_678_555);
+    myExercise1.AssignVariableTypes();
 }
