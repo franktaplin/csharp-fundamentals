@@ -18,15 +18,31 @@ inside that member.
 // Lesson Examples
 // HouseExample();
 // Lesson1Example();
+Lesson2Example();
 
-// Exercise Tests
-Exercise1Test();
+
+void Lesson2Example()
+{
+    Lesson2 myLesson2 = new Lesson2();
+    myLesson2.MyTrimExample();
+    int able = myLesson2.MyStringLength();
+    Console.WriteLine(able);
+    myLesson2.myEqualsExample("Hello World");
+    myLesson2.MyExampleChar();
+    Console.WriteLine(myLesson2.MyEscapeExample());
+    myLesson2.MyJoinedStrings("CSharp", "Rules");
+    Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
+    myLesson2.MyOtherInterpolation();
+}
+
 
 // void HouseExample()
 // {
 //     House myHouse = new House();
 //     myHouse.DoorOpenClose();
 // }
+
+
 
 // Lesson 1 Value Types
 void Lesson1Example()
@@ -37,6 +53,9 @@ void Lesson1Example()
     myLesson.ConvertFloatToInt();
     myLesson.LongFromInt();
 }
+
+// Exercise Tests
+// Exercise1Test();
 
 // Exercise 1 Test
 void Exercise1Test()
