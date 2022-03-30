@@ -18,7 +18,7 @@ inside that member.
 // Lesson Examples
 // HouseExample();
 // Lesson1Example();
-Lesson2Example();
+// Lesson2Example();
 
 
 void Lesson2Example()
@@ -55,6 +55,7 @@ void Lesson1Example()
 }
 
 // Exercise Tests
+Exercise2Test();
 // Exercise1Test();
 
 // Exercise 1 Test
@@ -65,4 +66,14 @@ void Exercise1Test()
     myExercise1.ImplicitConvertDataType(250, 30_000, 2_000_000_000);
     myExercise1.ExplicitConvertDataType(1.7E+8, 998_287.268F, 5_678_555);
     myExercise1.AssignVariableTypes();
+}
+
+// Exercise 2 test
+void Exercise2Test()
+{
+    Exercise2 myExercise2 = new Exercise2();
+    myExercise2.StringConcatenationExercise(" EXERCISE two Lab ");
+    myExercise2.UnicodeExample();
+    myExercise2.EscapeSequenceExample();
+    Console.WriteLine(myExercise2.InterpolationMovieExample());
 }
