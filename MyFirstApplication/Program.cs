@@ -19,7 +19,7 @@ inside that member.
 // HouseExample();
 // Lesson1Example();
 // Lesson2Example();
-Lesson3Example();
+// Lesson3Example();
 
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
@@ -37,7 +37,7 @@ void Lesson3Example()
     // myLesson3.BasicBooleanLogical(true, false);
     // myLesson3.BasicCompoundExample(12, 35, 9);
     // myLesson3.BasicRelationalExample("Tom", "Tim");
-    myLesson3.MyIncrDecrExample();
+    // myLesson3.MyIncrDecrExample();
 }
 
 // Lesson 2 Strings
@@ -75,17 +75,18 @@ void Lesson1Example()
 }
 
 // Exercise Tests
-// Exercise2Test();
 // Exercise1Test();
+// Exercise2Test();
+Exercise3Test();
 
-// Exercise 1 Test
-void Exercise1Test()
+// Exercise 3 Test
+void Exercise3Test()
 {
-    Exercise1 myExercise1 = new Exercise1();
-    myExercise1.OutputLiteralTypes();
-    myExercise1.ImplicitConvertDataType(250, 30_000, 2_000_000_000);
-    myExercise1.ExplicitConvertDataType(1.7E+8, 998_287.268F, 5_678_555);
-    myExercise1.AssignVariableTypes();
+    Exercise3 myExercise3 = new Exercise3();
+    myExercise3.ModulusExamples(5);
+    myExercise3.ArithmeticExamples();
+    myExercise3.CompoundExamples(10, 20);
+    myExercise3.BooleanExamples(true, false);
 }
 
 // Exercise 2 test
@@ -96,4 +97,14 @@ void Exercise2Test()
     myExercise2.UnicodeExample();
     myExercise2.EscapeSequenceExample();
     Console.WriteLine(myExercise2.InterpolationMovieExample());
+}
+
+// Exercise 1 Test
+void Exercise1Test()
+{
+    Exercise1 myExercise1 = new Exercise1();
+    myExercise1.OutputLiteralTypes();
+    myExercise1.ImplicitConvertDataType(250, 30_000, 2_000_000_000);
+    myExercise1.ExplicitConvertDataType(1.7E+8, 998_287.268F, 5_678_555);
+    myExercise1.AssignVariableTypes();
 }
