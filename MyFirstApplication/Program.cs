@@ -19,8 +19,28 @@ inside that member.
 // HouseExample();
 // Lesson1Example();
 // Lesson2Example();
+Lesson3Example();
 
+// Lesson 3 Operators and Overflow Checking
+void Lesson3Example()
+{
+    Lesson3 myLesson3 = new Lesson3();
+    // myLesson3.BasicCheckedOperator(14);
+    // myLesson3.BasicCheckedExample2();
+    // int alpha = 2147483647;
+    // int total = alpha + 10;
+    // Console.WriteLine(total);
+    // -214748639
+    // myLesson3.BasicUncheckedExample();
+    // myLesson3.BasicMath();
+    // myLesson3.BasicModulus(783);
+    // myLesson3.BasicBooleanLogical(true, false);
+    // myLesson3.BasicCompoundExample(12, 35, 9);
+    // myLesson3.BasicRelationalExample("Tom", "Tim");
+    myLesson3.MyIncrDecrExample();
+}
 
+// Lesson 2 Strings
 void Lesson2Example()
 {
     Lesson2 myLesson2 = new Lesson2();
@@ -55,7 +75,7 @@ void Lesson1Example()
 }
 
 // Exercise Tests
-Exercise2Test();
+// Exercise2Test();
 // Exercise1Test();
 
 // Exercise 1 Test
