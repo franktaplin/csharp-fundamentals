@@ -20,6 +20,24 @@ inside that member.
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
+Lesson4Example();
+
+// Lesson 4 Control Flow
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasciIfStatement(11);
+    // myLesson4.BasicIfElseStatement(12);
+    // myLesson4.BasicIfElseChainStatement(5);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(35));
+    // myLesson4.BasicSwitchStatement(5);
+    // myLesson4.BasicWhileStatement();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    // myLesson4.BasicForeachStatement();
+    // myLesson4.BasicJumpStatement();
+}
 
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
@@ -77,7 +95,7 @@ void Lesson1Example()
 // Exercise Tests
 // Exercise1Test();
 // Exercise2Test();
-Exercise3Test();
+// Exercise3Test();
 
 // Exercise 3 Test
 void Exercise3Test()
