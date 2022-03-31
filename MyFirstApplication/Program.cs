@@ -20,7 +20,7 @@ inside that member.
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
-Lesson4Example();
+// Lesson4Example();
 
 // Lesson 4 Control Flow
 void Lesson4Example()
@@ -96,6 +96,16 @@ void Lesson1Example()
 // Exercise1Test();
 // Exercise2Test();
 // Exercise3Test();
+Exercise4Test();
+
+// Exercise 4 Test
+void Exercise4Test()
+{
+    Exercise4 myExercise4 = new Exercise4();
+    myExercise4.IfElseExample("Have a nice day", "See ya");
+    Console.WriteLine(myExercise4.SwitchExample('V'));
+    myExercise4.IterationLoopExample();
+}
 
 // Exercise 3 Test
 void Exercise3Test()
