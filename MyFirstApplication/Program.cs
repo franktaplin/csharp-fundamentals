@@ -21,6 +21,41 @@ inside that member.
 // Lesson2Example();
 // Lesson3Example();
 // Lesson4Example();
+Lesson5Example();
+
+// Lesson 5 Expressions & Pattern matching
+void Lesson5Example()
+{
+    Lesson5 myLesson5 = new Lesson5();
+
+    // Call method of myLesson5
+    // myLesson5.IsOperatorExample(34);
+
+    // Instantiate delegate
+    Lesson5.Del handler = myLesson5.DelegateMethod;
+    // handler("Hello CSharp");
+
+    //  Func delegate
+    Func<int, int> add = myLesson5.Sum;
+    // Console.WriteLine($"func example = {add(23)}");
+
+    // Lambda Expression
+    // myLesson5.LambdaSquare();
+    // myLesson5.LambdaGreeting();
+
+    // Switch Expression
+    string value1 = myLesson5.BasicSwitch("red");
+    // Console.WriteLine(value1);
+    string value2 = myLesson5.FavoriteColor("green");
+    // Console.WriteLine(value2);
+
+    // Relational Pattern
+    // myLesson5.DrinkSize(33);
+
+    // Logical Patterns
+    myLesson5.TemperatureGuide(48.6);
+    myLesson5.NumberChoice(3);
+}
 
 // Lesson 4 Control Flow
 void Lesson4Example()
@@ -96,7 +131,7 @@ void Lesson1Example()
 // Exercise1Test();
 // Exercise2Test();
 // Exercise3Test();
-Exercise4Test();
+// Exercise4Test();
 
 // Exercise 4 Test
 void Exercise4Test()
