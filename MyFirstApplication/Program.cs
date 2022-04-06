@@ -21,7 +21,7 @@ inside that member.
 // Lesson2Example();
 // Lesson3Example();
 // Lesson4Example();
-Lesson5Example();
+// Lesson5Example();
 
 // Lesson 5 Expressions & Pattern matching
 void Lesson5Example()
@@ -132,6 +132,17 @@ void Lesson1Example()
 // Exercise2Test();
 // Exercise3Test();
 // Exercise4Test();
+Exercise5Test();
+
+// Exercise 5 Test
+void Exercise5Test()
+{
+    Exercise5 myExercise5 = new Exercise5();
+    Console.WriteLine(myExercise5.OhmsLawExample(3, 5));
+    Console.WriteLine(myExercise5.GradeResultExample('V'));
+    myExercise5.PopcornSizeExample(128);
+}
+
 
 // Exercise 4 Test
 void Exercise4Test()
