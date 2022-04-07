@@ -45,10 +45,12 @@ internal class Exercise3
     */
     public void ArithmeticExamples()
     {
-        int able = 10 + 32 * 12 / 3;
+        int able = 10 + (32 * 12 / 3);
+        int baker = (10 + 32) * 12 / 3;
+        int charlie = (10 + 32 * 12) / 3;
         Console.WriteLine(able);
-        Console.WriteLine(able + 30);
-        Console.WriteLine(able - 7);
+        Console.WriteLine(baker);
+        Console.WriteLine(charlie);
     }
 
     /*
