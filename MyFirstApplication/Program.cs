@@ -172,12 +172,24 @@ void Lesson1Example()
     myLesson.LongFromInt();
 }
 
+
+
 // Exercise Tests
 // Exercise1Test();
 // Exercise2Test();
-Exercise3Test();
+// Exercise3Test();
 // Exercise4Test();
 // Exercise5Test();
+Exercise6Test();
+
+// Exercise 6 Test
+void Exercise6Test()
+{
+    Exercise6 myExercise6 = new Exercise6(9, "Hiking Boot");
+    Exercise6.TryOn myShoe = myExercise6.ShoeSizeTest;
+    myShoe($"I tried on a size {myExercise6.ShowSize} {myExercise6.ShoeType}.");
+
+}
 
 // Exercise 5 Test
 void Exercise5Test()
@@ -227,3 +239,4 @@ void Exercise1Test()
     myExercise1.ExplicitConvertDataType(1.7E+8, 998_287.268F, 5_678_555);
     myExercise1.AssignVariableTypes();
 }
+
