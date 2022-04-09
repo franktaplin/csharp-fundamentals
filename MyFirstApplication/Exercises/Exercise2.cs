@@ -21,11 +21,11 @@ public class Exercise2
     public void StringConcatenationExercise(string concatenationValue)
     {
         string myString = concatenationValue;
-        Console.WriteLine(myString.Trim());
-        Console.WriteLine(myString.ToLower());
-        Console.WriteLine(myString.Contains("tow"));
-        Console.WriteLine(myString.Length);
-        Console.WriteLine(myString.IndexOf('C'));
+        Console.WriteLine("Trim() = " + myString.Trim());
+        Console.WriteLine("ToLower() = " + myString.ToLower());
+        Console.WriteLine("Contains(\"tow\") = " + myString.Contains("tow"));
+        Console.WriteLine("Length() = " + myString.Length);
+        Console.WriteLine("Indexof('C') = " + myString.IndexOf('C'));
     }
 
     /*
