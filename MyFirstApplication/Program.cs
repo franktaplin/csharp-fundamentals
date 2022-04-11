@@ -25,7 +25,8 @@ inside that member.
 // Lesson4Example();
 // Lesson5Example();
 // Lesson6Example();
-Lesson7Example();
+// Lesson7Example();
+
 
 
 // Lesson 7 Examples
@@ -205,6 +206,18 @@ void Lesson1Example()
 // Exercise4Test();
 // Exercise5Test();
 // Exercise6Test();
+Exercise7Test();
+
+// Exercise 7 Test
+void Exercise7Test()
+{
+    Employee myEmployee = new Employee(123, "Frank");
+    Console.WriteLine(myEmployee);
+    Console.WriteLine(myEmployee.EmployeeId);
+
+    Boat myBoat = new Boat(125, 35, 25);
+    myBoat.SetSail();
+}
 
 // Exercise 6 Test
 void Exercise6Test()
