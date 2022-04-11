@@ -26,7 +26,7 @@ inside that member.
 // Lesson5Example();
 // Lesson6Example();
 // Lesson7Example();
-Lesson8Example();
+// Lesson8Example();
 
 // Lesson 8 Examples
 void Lesson8Example()
@@ -226,6 +226,15 @@ void Lesson1Example()
 // Exercise5Test();
 // Exercise6Test();
 // Exercise7Test();
+Exercise8Test();
+
+// Exercise 8 Test
+void Exercise8Test()
+{
+    Exercise8 myExercise8 = new Exercise8();
+    myExercise8.FeetToInches(3);
+    Exercise8.AreaOfRectangle(4, 4);
+}
 
 // Exercise 7 Test
 void Exercise7Test()
