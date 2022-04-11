@@ -26,8 +26,27 @@ inside that member.
 // Lesson5Example();
 // Lesson6Example();
 // Lesson7Example();
+Lesson8Example();
 
+// Lesson 8 Examples
+void Lesson8Example()
+{
+    Lesson8 myLesson8 = new Lesson8(3);
+    // Calling constant directly
+    Console.WriteLine(Lesson8.DaysPerMonth);
 
+    // Calculate Temperature
+    Console.WriteLine(Lesson8Static.CelsiusToFahrenheit(45.6));
+
+    // Static Methods
+    Lesson8.DayCount = 10;
+    myLesson8.CalculateHours();
+    Lesson8.CalculateDayCount();
+    Console.WriteLine($"The calculation has been done {Lesson8.DayCount} times");
+
+    // Static lambda
+    myLesson8.CalculateHoursV2();
+}
 
 // Lesson 7 Examples
 void Lesson7Example()
@@ -206,7 +225,7 @@ void Lesson1Example()
 // Exercise4Test();
 // Exercise5Test();
 // Exercise6Test();
-Exercise7Test();
+// Exercise7Test();
 
 // Exercise 7 Test
 void Exercise7Test()
