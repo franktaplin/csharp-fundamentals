@@ -25,7 +25,31 @@ inside that member.
 // Lesson4Example();
 // Lesson5Example();
 // Lesson6Example();
+Lesson7Example();
 
+
+// Lesson 7 Examples
+void Lesson7Example()
+{
+    Location myLocation = new Location(34.5, 47.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // Readonly Struct
+    Student myStudent = new Student(10, "Roger");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+
+    // Record
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.lastName);
+
+    // Struct Record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+}
 
 // Lesson 6 Examples
 void Lesson6Example()
@@ -180,7 +204,7 @@ void Lesson1Example()
 // Exercise3Test();
 // Exercise4Test();
 // Exercise5Test();
-Exercise6Test();
+// Exercise6Test();
 
 // Exercise 6 Test
 void Exercise6Test()
@@ -214,7 +238,7 @@ void Exercise4Test()
 void Exercise3Test()
 {
     Exercise3 myExercise3 = new Exercise3();
-    myExercise3.ModulusExamples(5);
+    Console.WriteLine(myExercise3.ModulusExamples(5));
     myExercise3.ArithmeticExamples();
     myExercise3.CompoundExamples(10, 20);
     myExercise3.BooleanExamples(true, false);
