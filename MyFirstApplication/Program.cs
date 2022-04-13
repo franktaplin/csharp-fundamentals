@@ -6,7 +6,7 @@
 // The below statement calls a local function
 // single line comment
 
-BottlesOfBeer bottles = new BottlesOfBeer();
+// BottlesOfBeer bottles = new BottlesOfBeer();
 // bottles.LetsSing();
 
 /*
@@ -27,6 +27,18 @@ inside that member.
 // Lesson6Example();
 // Lesson7Example();
 // Lesson8Example();
+Lesson9Example();
+
+// Lesson 9 Examples
+void Lesson9Example()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    // Access Modifiers
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+}
 
 // Lesson 8 Examples
 void Lesson8Example()
@@ -226,7 +238,7 @@ void Lesson1Example()
 // Exercise5Test();
 // Exercise6Test();
 // Exercise7Test();
-Exercise8Test();
+// Exercise8Test();
 
 // Exercise 8 Test
 void Exercise8Test()
