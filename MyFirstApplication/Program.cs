@@ -29,7 +29,7 @@ inside that member.
 // Lesson8Example();
 // Lesson9Example();
 // Lesson10Example();
-HouseUpdated();
+// HouseUpdated();
 
 void HouseUpdated()
 {
@@ -286,6 +286,28 @@ void Lesson1Example()
 // Exercise6Test();
 // Exercise7Test();
 // Exercise8Test();
+// HorseTest();
+BoatTest();
+
+// Boat class for Exercise 10
+void BoatTest()
+{
+    Boat myBoat = new Boat();
+    Console.WriteLine(myBoat.DraftDepth);
+    Console.WriteLine(myBoat.KeelLength);
+    Console.WriteLine(myBoat.HullMaterial);
+    myBoat.SetSail();
+}
+
+// Horse class for Exercise 10
+void HorseTest()
+{
+    Horse myHorse = new Horse();
+    Console.WriteLine(myHorse.Weight);
+    Console.WriteLine(myHorse.Height);
+    Console.WriteLine(myHorse.Sex);
+    myHorse.Gallop();
+}
 
 // Exercise 8 Test
 void Exercise8Test()
@@ -302,8 +324,8 @@ void Exercise7Test()
     Console.WriteLine(myEmployee);
     Console.WriteLine(myEmployee.EmployeeId);
 
-    Boat myBoat = new Boat(125, 35, 25);
-    myBoat.SetSail();
+    // Boat myBoat = new Boat(125, 35, 25);
+    // myBoat.SetSail();
 }
 
 // Exercise 6 Test

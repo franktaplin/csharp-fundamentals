@@ -42,12 +42,15 @@ you defined. This record can be in the same file as exercise 1. Just put
 the code under it as seen in the lecture. Test your record to ensure
 it is working correctly.
 */
-public record Boat(int keel, int depth, int length)
-{
-    public void SetSail()
-    {
-        Console.WriteLine("The boat is setting sail");
-    }
-}
+
+// Voided out because object Boat is used in later lesson.
+
+// public record Boat(int keel, int depth, int length)
+// {
+    // public void SetSail()
+    // {
+        // Console.WriteLine("The boat is setting sail");
+    // }
+// }
 
     
