@@ -30,7 +30,7 @@ inside that member.
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
-Lesson11Example();
+// Lesson11Example();
 
 
 // Lesson 11
@@ -302,6 +302,30 @@ void Lesson1Example()
 // Exercise8Test();
 // HorseTest();
 // BoatTest();
+// ArabianTest();
+LongBoatTest();
+
+// LongBoat class for Exercise 11
+void LongBoatTest()
+{
+    LongBoat myLongBoat = new LongBoat();
+    Console.WriteLine(myLongBoat.DraftDepth);
+    Console.WriteLine(myLongBoat.KeelLength);
+    Console.WriteLine(myLongBoat.HullMaterial);
+    Console.WriteLine(myLongBoat.NumberOfOars);
+    Console.WriteLine(myLongBoat.Row());
+}
+
+// Arabian class for Exercise 11
+void ArabianTest()
+{
+    Arabian myArabian = new Arabian();
+    Console.WriteLine(myArabian.Weight);
+    Console.WriteLine(myArabian.Height);
+    Console.WriteLine(myArabian.Sex);
+    Console.WriteLine(myArabian.ManeLength);
+    Console.WriteLine(myArabian.Trot());
+}
 
 // Boat class for Exercise 10
 void BoatTest()
