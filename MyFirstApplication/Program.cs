@@ -30,6 +30,20 @@ inside that member.
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
+Lesson11Example();
+
+
+// Lesson 11
+void Lesson11Example()
+{
+    Square square = new Square();
+    double total = square.CalculateInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalculateInteriorAngle();
+    Console.Write(total2);
+}
 
 void HouseUpdated()
 {
@@ -287,7 +301,7 @@ void Lesson1Example()
 // Exercise7Test();
 // Exercise8Test();
 // HorseTest();
-BoatTest();
+// BoatTest();
 
 // Boat class for Exercise 10
 void BoatTest()
