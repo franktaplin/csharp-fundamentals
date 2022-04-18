@@ -1,11 +1,12 @@
 ﻿namespace MyFirstApplication;
 
 /*
- This is the Long Boat class that is used in Exercise 11. This class
-is a child class of Boat from Exercise 10.
+ This is the Long Boat class that is used in Exercise 11 and 12. This class
+is a child class of Boat from Exercise 10 and 12.
  */
 
 /*
+ Exercise 11
  Create a child class based on your Boat object. Include one child attribute
 as an auto property. Create 3 constructors. The first constructor should have
 4 parameters with 3 of them from Baot and your child property. Using the
@@ -19,6 +20,13 @@ last constructor, you will create the default constructor. Using the :this()
 keyword, you will pass 2 default values in that will pass to the 2nd 
 constructor. Also include in the class, your method for your child class.
 Include 1 child attribute as Expression Body Definition Properties.
+*/
+
+/*
+ Exercise 12
+ In your child class of Boat, using the override keyword create a method that has
+ the same name as the virtual method from Boat. Add a Console WriteLine that provides
+ a different message from the Boat.
 */
 internal class LongBoat : Boat
 {
@@ -47,5 +55,10 @@ internal class LongBoat : Boat
     public string Row()
     {
         return "The Long Boat has stowed the sail and is now rowing.";
+    }
+
+    public override void SetSail()
+    {
+        Console.WriteLine("The Long Boat\'s crew is stowing the sails.");
     }
 }

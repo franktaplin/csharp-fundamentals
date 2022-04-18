@@ -32,7 +32,7 @@ inside that member.
 // HouseUpdated();
 // Lesson11Example();
 // Lesson12Example();
-CondoExample();
+// CondoExample();
 
 // Condo Example
 void CondoExample()
@@ -326,7 +326,40 @@ void Lesson1Example()
 // BoatTest();
 // ArabianTest();
 // LongBoatTest();
+// Horse2Test();
+// Arabian2Test();
+// Boat2Test();
+LongBoat2Test();
 
+// Long Boat Test for Exercise 12
+void LongBoat2Test()
+{
+    LongBoat myLongBoat = new LongBoat();
+    myLongBoat.SetSail();
+}
+
+// Boat Test for Exercise 12
+void Boat2Test()
+{
+    Boat myBoat = new Boat();
+    myBoat.SetSail();
+    myBoat.SetSail("steel");
+}
+
+// Arabian class for Exercise 12
+void Arabian2Test()
+{
+    Arabian myArabian = new Arabian();
+    myArabian.Gallop();
+}
+
+// Horse class for Exercise 12
+void Horse2Test()
+{
+    Horse myHorse = new Horse();
+    myHorse.Gallop();
+    myHorse.Gallop(650);
+}
 // LongBoat class for Exercise 11
 void LongBoatTest()
 {
