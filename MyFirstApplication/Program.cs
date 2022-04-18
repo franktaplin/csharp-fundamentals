@@ -34,6 +34,18 @@ inside that member.
 // Lesson12Example();
 // CondoExample();
 // Lesson13Example();
+Lesson14Example();
+
+// Lesson 14 Example
+void Lesson14Example()
+{
+    Lesson14 myLesson14 = new Lesson14();
+    // myLesson14.SingleIntArray();
+    // myLesson14.SingleHouseArray();
+    // myLesson14.MultiintArray();
+    // myLesson14.MultiStringArray();
+    myLesson14.JaggedArraySample();
+}
 
 // Lesson 13 Example
 void Lesson13Example()
@@ -345,7 +357,7 @@ void Lesson1Example()
 // Arabian2Test();
 // Boat2Test();
 // LongBoat2Test();
-Exercise13Test();
+// Exercise13Test();
 
 // Exercise 13 Test
 void Exercise13Test()
