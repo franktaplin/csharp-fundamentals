@@ -33,7 +33,7 @@ inside that member.
 // Lesson11Example();
 // Lesson12Example();
 // CondoExample();
-Lesson13Example();
+// Lesson13Example();
 
 // Lesson 13 Example
 void Lesson13Example()
@@ -345,6 +345,15 @@ void Lesson1Example()
 // Arabian2Test();
 // Boat2Test();
 // LongBoat2Test();
+Exercise13Test();
+
+// Exercise 13 Test
+void Exercise13Test()
+{
+    WaterBirdsDerived myWaterBird = new WaterBirdsDerived(30);
+    myWaterBird.FlightSpeed();
+    Console.WriteLine(myWaterBird.BirdName());
+}
 
 // Long Boat Test for Exercise 12
 void LongBoat2Test()
