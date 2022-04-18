@@ -34,7 +34,7 @@ inside that member.
 // Lesson12Example();
 // CondoExample();
 // Lesson13Example();
-Lesson14Example();
+// Lesson14Example();
 
 // Lesson 14 Example
 void Lesson14Example()
@@ -358,6 +358,15 @@ void Lesson1Example()
 // Boat2Test();
 // LongBoat2Test();
 // Exercise13Test();
+Exercise14Test();
+
+// Exercise 14 Test
+void Exercise14Test()
+{
+    Exercise14 myExercise14 = new Exercise14();
+    myExercise14.IceCreamArray();
+    myExercise14.ChiefsScoresArray();
+}
 
 // Exercise 13 Test
 void Exercise13Test()
