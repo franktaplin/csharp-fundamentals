@@ -22,7 +22,7 @@ public class House
         DoorColor = doorColor;
         WindowSize = windowSize;
     }
-    public void DoorOpenClose()
+    public virtual void DoorOpenClose()
     {
         Console.WriteLine($"My {DoorColor} door is open.");
     }

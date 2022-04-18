@@ -31,7 +31,29 @@ inside that member.
 // Lesson10Example();
 // HouseUpdated();
 // Lesson11Example();
+// Lesson12Example();
+CondoExample();
 
+// Condo Example
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+
+// Lesson 12 Example
+void Lesson12Example()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    myFruit.EatFruit(3);
+
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+
+}
 
 // Lesson 11
 void Lesson11Example()
@@ -303,7 +325,7 @@ void Lesson1Example()
 // HorseTest();
 // BoatTest();
 // ArabianTest();
-LongBoatTest();
+// LongBoatTest();
 
 // LongBoat class for Exercise 11
 void LongBoatTest()
