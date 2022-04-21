@@ -35,7 +35,7 @@ inside that member.
 // CondoExample();
 // Lesson13Example();
 // Lesson14Example();
-Lesson15Example();
+// Lesson15Example();
 
 // Lessone 15 Example
 void Lesson15Example()
@@ -372,6 +372,16 @@ void Lesson1Example()
 // LongBoat2Test();
 // Exercise13Test();
 // Exercise14Test();
+Exercise15Test();
+
+// Exercise 15 Test
+void Exercise15Test()
+{
+    Exercise15 myExercise15 = new Exercise15();
+    string movie = myExercise15.FavoriteMovieSwitch(FavoriteMovies.BluesBrothers);
+    Console.WriteLine(movie);
+    Console.WriteLine(myExercise15.FavoriteMovieTuple(FavoriteMovies.Aliens));
+}
 
 // Exercise 14 Test
 void Exercise14Test()
