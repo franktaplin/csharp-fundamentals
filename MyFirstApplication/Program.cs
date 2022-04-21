@@ -35,6 +35,19 @@ inside that member.
 // CondoExample();
 // Lesson13Example();
 // Lesson14Example();
+Lesson15Example();
+
+// Lessone 15 Example
+void Lesson15Example()
+{
+    Lesson15 myLesson15 = new Lesson15();
+    // myLesson15.EnumExample();
+    string flavor = myLesson15.FavoriteIceCream(IceCreamFlavors.Chocolate);
+    // Console.WriteLine(flavor);
+    // myLesson15.TupleExample();
+    (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
+    Console.WriteLine($"Answers are {val1}, {val2}, {val3}");
+}
 
 // Lesson 14 Example
 void Lesson14Example()
@@ -358,7 +371,7 @@ void Lesson1Example()
 // Boat2Test();
 // LongBoat2Test();
 // Exercise13Test();
-Exercise14Test();
+// Exercise14Test();
 
 // Exercise 14 Test
 void Exercise14Test()
