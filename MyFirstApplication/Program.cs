@@ -37,7 +37,7 @@ inside that member.
 // Lesson14Example();
 // Lesson15Example();
 // Lesson16Example();
-Lesson17Example();
+// Lesson17Example();
 
 // Lesson 17 Example
 void Lesson17Example()
@@ -394,6 +394,15 @@ void Lesson1Example()
 // Exercise14Test();
 // Exercise15Test();
 // Exercise16Test();
+Exercise17Test();
+
+// Exercise 17 Test
+void Exercise17Test()
+{
+    Exercise17 myExercise17 = new Exercise17();
+    // myExercise17.DivisionProblem(20, 0);
+    myExercise17.HorseException(null);
+}
 
 // Exercise 16 Test
 void Exercise16Test()
